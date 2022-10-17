@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eFunding</title>
+    <link rel="shortcut icon" href="Aset/log1.png" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/Aset/logo.png" alt="logo eFunding" height="30" width="100%" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+              </li>
+              <li>
+                <a class="log-link" type="submit">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="banner-section">
+        <div class="container banner-container">
+            <h1 id="banner-title" class="display-1 text-center">Pilih Produk Favorit Mu</h1>
+            <div class="banner-row row text-center">
+              <div class="col-md-6 col-lg-3 col-12">
+                <div class="category-filter my-md-3 my-2">
+                  <h2>Jenis Produk</h2>
+                  <div class="dropdown show">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Semua Kategori </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12">
+                <div class="category-filter my-md-3 my-2">
+                  <h2>Jenis Tabungan</h2>
+                  <div class="dropdown show">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Semua Kategori </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12">
+                <div class="category-filter my-md-3 my-2">
+                  <h2>Jumlah Setoran</h2>
+                  <div class="dropdown show">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Semua Kategori </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12">
+                <div class="category-filter my-md-3 my-2">
+                  <h2>Jenis Nasabah</h2>
+                  <div class="dropdown show">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Semua Kategori </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter-area text-center my-md-3 my-2">
+              <a href="#">Terapkan Filter</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <h3 class="fs-5 product-title text-center">30 Produk sesuai Filter <a href="#"><span>RESET FILTER</span></a></h3>
+        <div class="product-list container">
+          <div class="row">
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item"/>
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item" />
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item" />
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item" />
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item" />
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column col-5 col-md-6 col-lg-4">
+              <div class="product-item">
+                <img src="/Aset/product-1.png" alt="Product item" />
+                <div class="card-info">
+                  <h4 class="card-title">Tabungan IB Ummat</h4>
+                  <a class="card-deposito" href="#">Deposito</a>
+                </div>
+                <span class="line-break"></span>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6 info-desc">
+                      <h5>Setoran Awal</h5>
+                      <p>Rp 1.000.000</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Akad Syariah</h5>
+                      <p>AI-Mudharabah</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Penarikan Dana</h5>
+                      <p>Setiap Saat</p>
+                    </div>
+                    <div class="col-6 info-desc">
+                      <h5>Biaya Administrasi</h5>
+                      <p>Tidak Ada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="testimony-section">
+      <div id="testy-container" class="container">
+        <div id="testy-item" class="row">
+          <div id="testy-left" class="col">
+            <div class="row">
+              <div id="testy-left-text" class="col">
+                <h5><strong> Testimoni </strong></h5>
+              </div>
+            </div>
+            <div class="row">
+              <div id="testy-left-text" class="col">
+                <h1><strong> APA YANG DIKATAKAN PELANGGAN TENTANG </strong></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div id="testy-left-span" class="col">
+                <h1><strong>EFUNDING.</strong></h1>
+              </div>
+            </div>
+          </div>
+          <div id="testy-right" class="col">
+            <div class="card mb-3">
+              <div class="row">
+                <img src="Aset/user-review-1.png" class="card-img-left" alt="" height="100px" width="100px" />
+                <div id="testy-right-text" class="col">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section id="footer-1">
+        <div class="pre-footer text-center">
+          <img src="/Aset/fintech-syariah.png" alt="" width="300" />
+          <h4 class="fs-4">
+            Tercatat Di OJK Dengan Nomor <br />
+            S-91/MS.72/2019
+          </h4>
+        </div>
+        <svg id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,10L720,60L1440,0L2160,50L2880,30L3600,90L4320,10L5040,40L5760,60L6480,10L7200,90L7920,40L8640,30L9360,70L10080,20L10800,40L11520,90L12240,30L12960,40L13680,10L14400,70L15120,20L15840,30L16560,20L17280,30L17280,100L16560,100L15840,100L15120,100L14400,100L13680,100L12960,100L12240,100L11520,100L10800,100L10080,100L9360,100L8640,100L7920,100L7200,100L6480,100L5760,100L5040,100L4320,100L3600,100L2880,100L2160,100L1440,100L720,100L0,100Z"
+          ></path>
+        </svg>
+      </section>
+      <section id="footer-nav">
+        <div id="footer-nav-container" class="contanier">
+          <div id="footer-nav-item" class="row">
+            <div id="footer-nav-left" class="col">
+              <div class="row">
+                <h5><strong>PT. EFUNDING TEKNOLOGI KEUANGAN</strong></h5>
+              </div>
+              <div class="row">
+                <h6>Menara Imperium LG 42 Jakarta Selatan , Indonesia 12980</h6>
+              </div>
+              <div class="row">
+                <h6>+62 877-7333-3391</h6>
+              </div>
+              <div class="row">
+                <h6>Support@efunding.id</h6>
+              </div>
+            </div>
+            <div id="footer-nav-mid" class="col">
+              <div class="row">
+                <h5><strong>Perusahaan</strong></h5>
+              </div>
+              <div class="row">
+                <a href="#" class="footer-link" style="text-decoration: none">Tentang Kami</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">Hubungi Kami</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">FAQ</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">Kebijakan Privasi</a>
+              </div>
+            </div>
+            <div id="footer-nav-right" class="col">
+              <div class="row">
+                <h5><strong>Ikuti Kami</strong></h5>
+              </div>
+              <div class="row">
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="cpr" class="container-flex">
+        <p>All Rights Researched © 2022 efunding.id</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
+

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eFunding</title>
+    <link rel="shortcut icon" href="Aset/log1.png" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/Aset/logo.png" alt="logo eFunding" height="30" width="100%" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+              </li>
+              <li>
+                <a class="log-link" type="submit">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="carousel-section">
+      <div id="carousel-nav" class="carousel slide" data-bs-ride="carousel">
+        <svg id="wave" style="transform: rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,10L120,23.3C240,37,480,63,720,66.7C960,70,1200,50,1440,41.7C1680,33,1920,37,2160,40C2400,43,2640,47,2880,40C3120,33,3360,17,3600,16.7C3840,17,4080,33,4320,36.7C4560,40,4800,30,5040,25C5280,20,5520,20,5760,30C6000,40,6240,60,6480,65C6720,70,6960,60,7200,50C7440,40,7680,30,7920,25C8160,20,8400,20,8640,18.3C8880,17,9120,13,9360,20C9600,27,9840,43,10080,56.7C10320,70,10560,80,10800,71.7C11040,63,11280,37,11520,31.7C11760,27,12000,43,12240,53.3C12480,63,12720,67,12960,65C13200,63,13440,57,13680,46.7C13920,37,14160,23,14400,23.3C14640,23,14880,37,15120,38.3C15360,40,15600,30,15840,33.3C16080,37,16320,53,16560,53.3C16800,53,17040,37,17160,28.3L17280,20L17280,100L17160,100C17040,100,16800,100,16560,100C16320,100,16080,100,15840,100C15600,100,15360,100,15120,100C14880,100,14640,100,14400,100C14160,100,13920,100,13680,100C13440,100,13200,100,12960,100C12720,100,12480,100,12240,100C12000,100,11760,100,11520,100C11280,100,11040,100,10800,100C10560,100,10320,100,10080,100C9840,100,9600,100,9360,100C9120,100,8880,100,8640,100C8400,100,8160,100,7920,100C7680,100,7440,100,7200,100C6960,100,6720,100,6480,100C6240,100,6000,100,5760,100C5520,100,5280,100,5040,100C4800,100,4560,100,4320,100C4080,100,3840,100,3600,100C3360,100,3120,100,2880,100C2640,100,2400,100,2160,100C1920,100,1680,100,1440,100C1200,100,960,100,720,100C480,100,240,100,120,100L0,100Z"
+          ></path>
+        </svg>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container">
+              <div id="carousel" class="row">
+                <div id="carousel-left" class="col">
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h5><strong> Platform Agregator Indonesia</strong></h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h1><strong> Langkah awal wujudkan impianmu dalam satu genggaman </strong></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">Efunding atau PT. Efunding Teknologi Keuangan adalah perusahaan teknologi digital - Fintech yang menjadikan Syariah sebagai rujukan akad dalam menjalankan usahanya.</div>
+                  </div>
+                  <div width="20%">
+                    <button id="start-button" type="button" class="btn btn-light">Mulai Investasi</button>
+                  </div>
+                </div>
+                <div id="carousel-right" class="col">
+                  <img src="Aset/img1.png" alt="#" height="500px" width="350px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="container">
+              <div id="carousel" class="row">
+                <div id="carousel-left" class="col">
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h5><strong> Platform Agregator Indonesia</strong></h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h1><strong> Langkah awal wujudkan impianmu dalam satu genggaman </strong></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">Efunding atau PT. Efunding Teknologi Keuangan adalah perusahaan teknologi digital - Fintech yang menjadikan Syariah sebagai rujukan akad dalam menjalankan usahanya.</div>
+                  </div>
+                  <div width="20%">
+                    <button id="start-button" type="button" class="btn btn-light">Mulai Investasi</button>
+                  </div>
+                </div>
+                <div id="carousel-right" class="col">
+                  <img src="Aset/img1.png" alt="#" height="500px" width="350px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div id="carousel" class="row">
+                <div id="carousel-left" class="col">
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h5><strong> Platform Agregator Indonesia</strong></h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">
+                      <h1><strong> Langkah awal wujudkan impianmu dalam satu genggaman </strong></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="carousel-left-text" class="col">Efunding atau PT. Efunding Teknologi Keuangan adalah perusahaan teknologi digital - Fintech yang menjadikan Syariah sebagai rujukan akad dalam menjalankan usahanya.</div>
+                  </div>
+                  <div width="20%">
+                    <button id="start-button" type="button" class="btn btn-light">Mulai Investasi</button>
+                  </div>
+                </div>
+                <div id="carousel-right" class="col">
+                  <img src="Aset/img1.png" alt="#" height="500px" width="350px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-nav" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-nav" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <svg id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+              <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="#ffffff"
+            d="M0,45L120,57.5C240,70,480,95,720,102.5C960,110,1200,100,1440,82.5C1680,65,1920,40,2160,45C2400,50,2640,85,2880,102.5C3120,120,3360,120,3600,122.5C3840,125,4080,130,4320,115C4560,100,4800,65,5040,52.5C5280,40,5520,50,5760,47.5C6000,45,6240,30,6480,27.5C6720,25,6960,35,7200,35C7440,35,7680,25,7920,37.5C8160,50,8400,85,8640,102.5C8880,120,9120,120,9360,122.5C9600,125,9840,130,10080,110C10320,90,10560,45,10800,35C11040,25,11280,50,11520,62.5C11760,75,12000,75,12240,80C12480,85,12720,95,12960,105C13200,115,13440,125,13680,127.5C13920,130,14160,125,14400,117.5C14640,110,14880,100,15120,100C15360,100,15600,110,15840,112.5C16080,115,16320,110,16560,105C16800,100,17040,95,17160,92.5L17280,90L17280,150L17160,150C17040,150,16800,150,16560,150C16320,150,16080,150,15840,150C15600,150,15360,150,15120,150C14880,150,14640,150,14400,150C14160,150,13920,150,13680,150C13440,150,13200,150,12960,150C12720,150,12480,150,12240,150C12000,150,11760,150,11520,150C11280,150,11040,150,10800,150C10560,150,10320,150,10080,150C9840,150,9600,150,9360,150C9120,150,8880,150,8640,150C8400,150,8160,150,7920,150C7680,150,7440,150,7200,150C6960,150,6720,150,6480,150C6240,150,6000,150,5760,150C5520,150,5280,150,5040,150C4800,150,4560,150,4320,150C4080,150,3840,150,3600,150C3360,150,3120,150,2880,150C2640,150,2400,150,2160,150C1920,150,1680,150,1440,150C1200,150,960,150,720,150C480,150,240,150,120,150L0,150Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section id="product-section">
+      <h3><center>Penjualan Terfavorit</center></h3>
+      <h1>
+        <strong
+          ><center>Produk <a style="color: #274c8e">unggulan</a> kami</center></strong
+        >
+      </h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn active" aria-current="true" aria-label="Slide 1">
+            <span></span>
+          </button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn" aria-label="Slide 2">
+            <span></span>
+          </button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn" aria-label="Slide 3">
+            <span></span>
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-column col-4 col-md-3 col-lg-4">
+                  <div class="product-item">
+                    <img src="/Aset/product-1.png" alt="Product item" />
+                    <div class="card-info">
+                      <h4 class="card-title">Tabungan IB Ummat</h4>
+                      <a class="card-deposito" href="#">Deposito</a>
+                    </div>
+                    <span class="line-break"></span>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 info-desc">
+                          <h5>Setoran Awal</h5>
+                          <p>Rp 1.000.000</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Akad Syariah</h5>
+                          <p>AI-Mudharabah</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Penarikan Dana</h5>
+                          <p>Setiap Saat</p>
+                        </div>
+                        <div class="col-6 info-desc">
+                          <h5>Biaya Administrasi</h5>
+                          <p>Tidak Ada</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-section">
+      <div id="about-container" class="container">
+        <div class="row">
+          <div id="about-left" class="col">
+            <div class="row">
+              <div id="about-left-text" class="col">
+                <h5><strong> MENGAPA HARUS EFUNDING?</strong></h5>
+              </div>
+            </div>
+            <div class="row">
+              <div id="about-left-text" class="col">
+                <h1><strong> Kami Menyediakan Solusi untuk Pertumbuhan Keuangan Anda </strong></h1>
+              </div>
+            </div>
+            <div width="20%">
+              <button id="about-button" type="button" class="btn btn-light">Tentang Kami</button>
+            </div>
+          </div>
+          <div id="about-right" class="col">
+            <div class="row">
+              <img id="about-img" src="/Aset/image 8.png" alt="#" />
+              <div id="about-right-text" class="col">
+                <h5><strong>Funding Agent Sharia Platform</strong></h5>
+                <p>Efunding sebagai pionir Funding Agent berbasis Syariah di Indonesia</p>
+              </div>
+            </div>
+            <div class="row">
+              <img id="about-img" src="/Aset/image 7.png" alt="#" />
+              <div id="about-right-text" class="col">
+                <h5><strong>Mitra Efunding yang Kredibel</strong></h5>
+                <p>Mitra-mitra Efunding sudah berizin dan diawasi lembaga terpercaya</p>
+              </div>
+            </div>
+            <div class="row">
+              <img id="about-img" src="/Aset/image 9.png" alt="#" />
+              <div id="about-right-text" class="col">
+                <h5><strong>Amanah dan terpercaya</strong></h5>
+                <p>Efunding telah berizin usaha serta tercatat di Otoritas Jasa Keuangan</p>
+              </div>
+            </div>
+            <div class="row">
+              <img id="about-img" src="/Aset/image 10.png" alt="#" />
+              <div id="about-right-text" class="col">
+                <h5><strong>Akses ke berbagai produk syariah</strong></h5>
+                <p>Melalui Efunding anda dapat mengakses berbagai produk syariah dari mitra kami</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimony-section">
+      <div id="testy-container" class="container">
+        <div id="testy-item" class="row">
+          <div id="testy-left" class="col">
+            <div class="row">
+              <div id="testy-left-text" class="col">
+                <h5><strong> Testimoni </strong></h5>
+              </div>
+            </div>
+            <div class="row">
+              <div id="testy-left-text" class="col">
+                <h1><strong> APA YANG DIKATAKAN PELANGGAN TENTANG </strong></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div id="testy-left-span" class="col">
+                <h1><strong>EFUNDING.</strong></h1>
+              </div>
+            </div>
+          </div>
+          <div id="testy-right" class="col">
+            <div class="card mb-3">
+              <div class="row">
+                <img src="Aset/user-review-1.png" class="card-img-left" alt="" height="100px" width="100px" />
+                <div id="testy-right-text" class="col">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section id="footer-1">
+        <div class="pre-footer text-center">
+          <img src="/Aset/fintech-syariah.png" alt="" width="300" />
+          <h4 class="fs-4">
+            Tercatat Di OJK Dengan Nomor <br />
+            S-91/MS.72/2019
+          </h4>
+        </div>
+        <svg id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(83, 145, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,10L720,60L1440,0L2160,50L2880,30L3600,90L4320,10L5040,40L5760,60L6480,10L7200,90L7920,40L8640,30L9360,70L10080,20L10800,40L11520,90L12240,30L12960,40L13680,10L14400,70L15120,20L15840,30L16560,20L17280,30L17280,100L16560,100L15840,100L15120,100L14400,100L13680,100L12960,100L12240,100L11520,100L10800,100L10080,100L9360,100L8640,100L7920,100L7200,100L6480,100L5760,100L5040,100L4320,100L3600,100L2880,100L2160,100L1440,100L720,100L0,100Z"
+          ></path>
+        </svg>
+      </section>
+      <section id="footer-nav">
+        <div id="footer-nav-container" class="contanier">
+          <div id="footer-nav-item" class="row">
+            <div id="footer-nav-left" class="col">
+              <div class="row">
+                <h5><strong>PT. EFUNDING TEKNOLOGI KEUANGAN</strong></h5>
+              </div>
+              <div class="row">
+                <h6>Menara Imperium LG 42 Jakarta Selatan , Indonesia 12980</h6>
+              </div>
+              <div class="row">
+                <h6>+62 877-7333-3391</h6>
+              </div>
+              <div class="row">
+                <h6>Support@efunding.id</h6>
+              </div>
+            </div>
+            <div id="footer-nav-mid" class="col">
+              <div class="row">
+                <h5><strong>Perusahaan</strong></h5>
+              </div>
+              <div class="row">
+                <a href="#" class="footer-link" style="text-decoration: none">Tentang Kami</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">Hubungi Kami</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">FAQ</a>
+              </div>
+              <div class="row">
+                <a href="" class="footer-link">Kebijakan Privasi</a>
+              </div>
+            </div>
+            <div id="footer-nav-right" class="col">
+              <div class="row">
+                <h5><strong>Ikuti Kami</strong></h5>
+              </div>
+              <div class="row">
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+                <img src="#" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="cpr" class="container-flex">
+        <p>All Rights Researched © 2022 efunding.id</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
